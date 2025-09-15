@@ -15,5 +15,6 @@ hello: hello.cpp
 	g++ -O2 hello.cpp -o hello -DNDEBUG -Wall
 
 clean:
-	rm -f hello 
+	rm -f main *.o *.d
+	@echo "Проект очищен." 
 
